@@ -1,0 +1,16 @@
+0  -> Dashboard
+1  -> Add Test
+10 -> All Tests
+11 -> Test Instructions
+12 -> Add Questions
+13 -> Edit Test
+2  -> Test Controls
+3  -> User Controls
+4  -> Leaderboard
+5  -> My Profile
+6  -> 
+7  -> Change Password
+8  -> 
+9  -> 
+viewresult
+echo '<button type="button" class="btn btn-block btn-success btn-xs" onclick="window.open(`test.php?q=quiz&t='.$total.'&uid='.$uid.'&step=2&tid='.$tid.'`,`Test Window`,`toolbar=false,menubar=false,scrollbars=yes,height=768,width=1366,location=0,resizable=false`);">Start Test</button>';
